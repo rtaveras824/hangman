@@ -1,0 +1,54 @@
+/*flexbox*/
+
+html, body, .side {
+    height: 100%;
+}
+
+
+.side {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/*end flexbox*/
+
+
+
+.side {
+	height: 600px;
+}
+
+#idunno {
+	background-color: #B21212;
+}
+
+#guessing {
+	background-color: #FFFC19;
+	font-family: 'Hind', sans-serif;
+	font-size: 18px;
+	font-style: bolder;
+}
+
+.container-fluid {
+	background-color: #FF1300;
+}
+
+#gamemaster {
+	font-family: 'Passion One', cursive;
+	font-size: 40px;
+	margin: 20px;
+	background-color: #1485CC;
+	color: #FFFC19;
+	border: none;
+}
+
+#gamemaster:hover {
+	background-color: #539EF0;
+}
