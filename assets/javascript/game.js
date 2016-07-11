@@ -1,4 +1,11 @@
 
+	var word = [];
+	var wordguess = [];
+	var letterguess = [];
+
+	var wins = 0;
+	var numguesses = 13;
+
 	function init() {
 		word = ["R","O","C","K"];
 		wordguess = [];
