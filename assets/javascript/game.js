@@ -203,6 +203,7 @@
 		document.getElementById("numguesses").innerHTML = numGuesses;
 		document.getElementById("missed").innerHTML = '';
 		document.getElementById("outcome").innerHTML = '';
+		document.getElementById("fortouch").value = '';
 		setBlankLetters();
 	}
 

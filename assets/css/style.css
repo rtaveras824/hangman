@@ -65,3 +65,13 @@ html, body, .side {
 #gamemaster:hover {
 	background-color: #539EF0;
 }
+
+.mobile {
+	display: none;
+}
+
+@media only screen and (max-device-width: 480px) {
+	.mobile {
+		display: block;
+	}
+}
