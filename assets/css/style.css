@@ -1,4 +1,13 @@
 /*flexbox*/
+body {
+	font-family: 'Cormorant SC', serif;
+	background-color: #09090E;
+	color: #4D4D4E;
+}
+
+strong {
+	font-size: 20px;
+}
 
 html, body, .side {
     height: 100%;
@@ -19,33 +28,37 @@ html, body, .side {
 
 /*end flexbox*/
 
+#intro {
+	position: relative;
+}
 
+#scrollBtn {
+	position: absolute;
+	top: 60%;
+	font-size: 40px;
+}
+
+#content {
+	margin-top: 20px;
+}
 
 .side {
-	height: 600px;
+	height: 500px;
 }
 
 #idunno {
-	background-color: #B21212;
+	background-color: #112332;
 }
 
 #guessing {
-	background-color: #FFFC19;
-	font-family: 'Hind', sans-serif;
+	background-color: 	#ABB2B8;
 	font-size: 18px;
 	font-style: bolder;
 }
 
-.container-fluid {
-	background-color: #FF1300;
-}
-
 #gamemaster {
-	font-family: 'Passion One', cursive;
 	font-size: 40px;
 	margin: 20px;
-	background-color: #1485CC;
-	color: #FFFC19;
 	border: none;
 }
 
